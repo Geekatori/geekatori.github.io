@@ -36,6 +36,13 @@
         font-size: .3em;
       }
     </style>
+  </head>
+  <body>
+    <main>
+      <section class="viewport"><span class="name">Viewport: </span><span id="viewport"></span></section>
+      <section class="screen"><span class="name">Screen: </span><span id="screen"></span></section>
+      <footer>Pixel ratio <span id="ratio"></span></footer>
+    </main>
     <script>
       const sizeEl = document.getElementById('viewport');
       const screenEl = document.getElementById('screen');
@@ -73,12 +80,5 @@
           }
       }, 125);
     </script>
-  </head>
-  <body>
-    <main>
-      <section class="viewport"><span class="name">Viewport: </span><span id="viewport"></span></section>
-      <section class="screen"><span class="name">Screen: </span><span id="screen"></span></section>
-      <footer>Pixel ratio <span id="ratio"></span></footer>
-    </main>
   </body>
 </html>
